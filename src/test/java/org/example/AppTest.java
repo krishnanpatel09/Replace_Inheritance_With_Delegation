@@ -37,5 +37,11 @@ public class AppTest
         assertTrue( true );
     }
 
+    //Test Case for Push
+    public void testPush(){
+        MyStack<Integer> myStack = new MyStack<>();
+        myStack.push(1);
+        assertEquals(1, myStack.size());
+    }
 
 }
