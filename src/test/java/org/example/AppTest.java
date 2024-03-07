@@ -42,6 +42,8 @@ public class AppTest
         MyStack<Integer> myStack = new MyStack<>();
         myStack.push(1);
         assertEquals(1, myStack.size());
+        myStack.push(2);
+        assertEquals(2, myStack.size());
     }
 
 }
