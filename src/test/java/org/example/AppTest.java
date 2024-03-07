@@ -52,5 +52,6 @@ public class AppTest
         myStack.push(1);
         myStack.push(2);
         assertEquals(Integer.valueOf(2), myStack.pop());
+        assertEquals(Integer.valueOf(1), myStack.pop());
     }
 }
