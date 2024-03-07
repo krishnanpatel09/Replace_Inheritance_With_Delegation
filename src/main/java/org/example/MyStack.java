@@ -3,11 +3,11 @@ package org.example;
 import java.util.ArrayList;
 import java.util.EmptyStackException;
 
-public class MyStack<E> extends ArrayList<E> {
+public class MyStack<E>  {
     private ArrayList<E> delegate;
 
     public MyStack() {
-        this.delegate = this;
+        this.delegate = new ArrayList<>();
     }
 
     public void push(E e) {
