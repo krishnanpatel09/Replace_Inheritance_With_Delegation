@@ -46,4 +46,11 @@ public class AppTest
         assertEquals(2, myStack.size());
     }
 
+    //Test Case for Pop
+    public void testPop(){
+        MyStack<Integer> myStack = new MyStack<>();
+        myStack.push(1);
+        myStack.push(2);
+        assertEquals(Integer.valueOf(2), myStack.pop());
+    }
 }
