@@ -53,5 +53,7 @@ public class AppTest
         myStack.push(2);
         assertEquals(Integer.valueOf(2), myStack.pop());
         assertEquals(Integer.valueOf(1), myStack.pop());
+
+        assertTrue(myStack.isEmpty());
     }
 }
